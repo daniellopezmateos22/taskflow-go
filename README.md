@@ -3,7 +3,6 @@
 
 API sencilla pero completa para gestionar tareas por usuario, con autenticación JWT, persistencia en Postgres y un **worker concurrente** (goroutines + channel) que programa recordatorios con `time.AfterFunc`.
 
-> Pensado para practicar Go en backend y enseñar en entrevistas: diseño de API, auth, DB real, y concurrencia.
 
 ## Stack
 - **Go** (Gin, GORM, JWT, bcrypt)
