@@ -1,0 +1,39 @@
+# --- Go ---
+# Binarios y ejecutables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+server
+
+# Archivos de compilación
+/go-build/
+*.a
+
+# Módulos y dependencias
+vendor/
+
+# Archivos de caché
+*.log
+*.tmp
+
+# --- Bases de datos locales ---
+*.db
+*.sqlite
+
+# --- Docker ---
+# Evita subir datos persistentes de contenedores
+docker-data/
+*.pid
+
+# --- IDEs / Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
